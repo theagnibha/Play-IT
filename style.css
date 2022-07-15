@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Gentium+Book+Plus&family=Jost:wght@100&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 4px;
+}
+
+nav{
+    font-family: 'Arima', cursive;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 54px;
+    background-color: black;
+    color: azure;
+    border-radius: 4px;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 52px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: rgb(27, 10, 10);
+    color: whitesmoke;
+    font-family: Arima, cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 14px;
+    padding: 34px;
+    background-image: url('abstract music.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.icons{
+    margin: 16px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    color: rgb(56, 38, 77);
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 14px;
+    font-weight: bold;
+    
+}
+
+.songitem img{
+    width: 69px;
+    margin: 0px 0px;
+    border-radius: 16px;
+}
+
+.songlist{
+ 
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 6vw;
+    font-family: Arima, cursive;
+
+}
+
+.songinfo img{
+    width: 50px;
+    margin: -12px 23px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 1s;
+}
+
